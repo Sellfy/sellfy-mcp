@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.sellfy/mcp",
+  "title": "Sellfy MCP Server",
+  "description": "Run your Sellfy store from your AI assistant: products, discounts, orders, sales and email drafts.",
+  "version": "1.0.0",
+  "websiteUrl": "https://sellfy.com/mcp/?utm_source=mcp-registry&utm_medium=mcp-directory",
+  "repository": {
+    "url": "https://github.com/Sellfy/sellfy-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/Sellfy/sellfy-mcp/main/assets/sellfy-logo-400.png",
+      "mimeType": "image/png",
+      "sizes": ["400x400"]
+    },
+    {
+      "src": "https://raw.githubusercontent.com/Sellfy/sellfy-mcp/main/assets/sellfy-logo.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.sellfy.com/mcp"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "sellfy",
+  "version": "1.0.0",
+  "description": "Run your Sellfy store from Gemini CLI: products, discounts, orders, sales and email drafts.",
+  "mcpServers": {
+    "sellfy": {
+      "httpUrl": "https://api.sellfy.com/mcp"
+    }
+  }
+}

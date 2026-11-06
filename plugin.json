@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "sellfy",
+  "version": "1.0.0",
+  "description": "Run your Sellfy store from your AI assistant: products, discounts, orders, sales and email drafts.",
+  "homepage": "https://sellfy.com/mcp/?utm_source=cursor-directory&utm_medium=mcp-directory",
+  "repository": "https://github.com/Sellfy/sellfy-mcp",
+  "keywords": ["mcp", "ecommerce", "digital-products", "online-store", "creators", "email-marketing"]
+}

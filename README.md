@@ -52,6 +52,8 @@ Read tools can return orders, customers and reviews, including buyer names and e
 
 Two OAuth scopes: `mcp:read` and `mcp:write`. Sessions expire after 30 days unused or 180 days total. Rate limit: 120 requests per minute across all connected clients.
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/sellfy-sellfy-mcp-1886mo?v=b63613fdcedeb46620a45bb841cfe580)](https://m8ven.ai/mcp/sellfy-sellfy-mcp-1886mo?s=readme)
+
 ## Support
 
 [Sellfy Help Center](https://docs.sellfy.com/) · [Terms](https://sellfy.com/terms/) · [Privacy](https://sellfy.com/privacy/)

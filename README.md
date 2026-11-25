@@ -18,7 +18,7 @@ More: [sellfy.com/mcp](https://sellfy.com/mcp/?utm_source=github&utm_medium=mcp-
 | App | How |
 |---|---|
 | **Claude** | One click from the [Claude directory](https://claude.ai/directory/sellfy-mcp), or Settings → Connectors → Add custom connector → paste the URL. Then switch Sellfy on in the chat (+ → Connectors). |
-| **ChatGPT** | chatgpt.com/plugins → + → Add custom MCP server → name it Sellfy → paste the URL → sign in. In a chat, type `@` and pick Sellfy. |
+| **ChatGPT** | Open Sellfy in the [ChatGPT app directory](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab3e0df48191bbc8842243876037), connect it, then sign in to Sellfy and click Allow. Or add it by hand: chatgpt.com/plugins → + → Add custom MCP server → name it Sellfy → paste the URL → sign in. Then type `@` in a chat and pick Sellfy. |
 | **Claude Code** | `claude mcp add --transport http sellfy https://api.sellfy.com/mcp`, then `/mcp` → Authenticate. |
 | **Cursor** | Add to `~/.cursor/mcp.json`: `{ "mcpServers": { "sellfy": { "url": "https://api.sellfy.com/mcp" } } }`, then click "Needs login". |
 | **VS Code** | `code --add-mcp '{"name":"sellfy","type":"http","url":"https://api.sellfy.com/mcp"}'` |
